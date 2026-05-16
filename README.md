@@ -103,10 +103,6 @@ Feel free to contribute either with a PR or by opening an issue.
 
     >TL;DR: This paper introduces VQ-CD, a continual offline RL method that aligns heterogeneous task spaces with vector quantization and mitigates forgetting through selective weight activation using task masks. By unifying representations and isolating task-specific parameters, it enables robust continual learning across diverse task sequences.
 
-- Yu M M, Zhu F, Yang Y, et al. **C-NAV: Towards Self-Evolving Continual Object Navigation in Open World**[C]//The Thirty-ninth Annual Conference on Neural Information Processing Systems. [[Paper]](https://openreview.net/forum?id=SbfdxWibDn)[[Code]](https://bigtree765.github.io/C-Nav-project/)
-
-    >TL;DR: This paper presents C-Nav, a continual object navigation framework that prevents forgetting through dual-path feature distillation and feature replay, while using adaptive keyframe selection to reduce memory. It maintains stable representations and policies across tasks, enabling effective continual skill acquisition with lower storage cost.
-
 
 
 #### ICLR 2025
@@ -116,7 +112,6 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Choi W, Park J, Ahn S, et al. **NeSyC: A Neuro-symbolic Continual Learner For Complex Embodied Tasks In Open Domains**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=VoayJihXra)
 
-- Liu T, Li J, Zheng Y, et al. **Skill Expansion and Composition in Parameter Space**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=GLWf2fq0bX)
 
 - Choi J, Seo S W. **Dynamic Contrastive Skill Learning with State-Transition Based Skill Clustering and Dynamic Length Adjustment**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=8egnwady4b)
 
