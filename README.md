@@ -53,6 +53,20 @@ Feel free to contribute either with a PR or by opening an issue.
 ## 📖 Research Papers
 
 ### 2026
+#### ICML 2026
+- Li P, Tang H, Yuan Y, et al. **Neuro-evolutionary Continual Reinforcement Learning**[C]//Forty-third International Conference on Machine Learning. 2026.[[Paper]](https://icml.cc/virtual/2026/poster/65001)
+
+    >TL;DR: This paper studies CRL through a neuro-evolutionary perspective, combining evolutionary search with continual RL to adapt agent structures or parameters across changing tasks. The approach aims to improve long-term plasticity and knowledge reuse in non-stationary environments.
+
+- Zhou Q, Xu R, Wang P, et al. **HTAC: Hierarchical Task-Aware Composition for Continual Offline Reinforcement Learning**[C]//Forty-third International Conference on Machine Learning. 2026.[[Paper]](https://icml.cc/virtual/2026/poster/63033)
+
+    >TL;DR: HTAC targets continual offline RL, where agents must learn from sequentially collected offline datasets without online interaction. It introduces a hierarchical task-aware composition mechanism to reuse and compose knowledge from previous tasks while adapting to new offline task distributions.
+
+- Behdin P, Roice K, Mesbahi G. **Position: Deployed Reinforcement Learning should be Continual**[C]//Forty-third International Conference on Machine Learning Position Paper Track. 2026.[[Paper]](https://icml.cc/virtual/2026/poster/67195)
+
+    >TL;DR: This position paper argues that real-world RL deployment should be framed as continual learning rather than one-shot training followed by static deployment. It emphasizes ongoing adaptation, distribution shift, and long-term performance as central requirements for deployed RL systems.
+
+
 #### ICLR 2026
 - Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://arxiv.org/abs/2603.00903)[[Code]](https://github.com/datake/FAME)
 
@@ -238,6 +252,11 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ## 🌎 Benchmarks
+#### ICML 2026
+- Tomilin T, van den Boogaard L, Garcin S, et al. **MEAL: A Benchmark for Continual Multi-Agent Reinforcement Learning**[C]//Forty-third International Conference on Machine Learning. 2026.[[Paper]](https://arxiv.org/abs/2506.14990)[[Code]](https://github.com/TTomilin/MEAL)
+
+    >TL;DR: MEAL introduces a benchmark for continual multi-agent reinforcement learning, extending CRL evaluation to settings where multiple agents must adapt over sequential tasks. It focuses on non-stationarity, transfer, and forgetting in cooperative or multi-agent learning scenarios.
+
 #### arXiv
 - Yuan M, Wang Q, Ma G, et al. Plasticine: Accelerating research in plasticity-motivated deep reinforcement learning[J]. arXiv preprint arXiv:2504.17490, 2025.[[Paper]](https://arxiv.org/pdf/2504.17490)[[Code]](https://github.com/RLE-Foundation/Plasticine)
 
