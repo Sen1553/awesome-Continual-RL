@@ -66,6 +66,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
     >TL;DR: This position paper argues that real-world RL deployment should be framed as continual learning rather than one-shot training followed by static deployment. It emphasizes ongoing adaptation, distribution shift, and long-term performance as central requirements for deployed RL systems.
 
+- Luo L, Zhang G, Xu H, et al. **SPHERE: Mitigating the Loss of Spectral Plasticity in Mixture-of-Experts for Deep Reinforcement Learning**[J]. arXiv preprint arXiv:2605.04712, 2026.[[Paper]](https://arxiv.org/abs/2605.04712)[[Code]](https://github.com/sphere-rl/sphere)
+
+    >TL;DR:This paper identifies plasticity loss in MoE-based deep reinforcement learning as a decline in spectral plasticity, measured by the effective rank of the empirical NTK. It proposes SPHERE, a Parseval-style regularizer on routing-weighted expert features, to preserve diverse functional update directions during continual learning. Experiments show that SPHERE substantially improves CRL performance while maintaining higher spectral plasticity.
 
 #### ICLR 2026
 - Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://arxiv.org/abs/2603.00903)[[Code]](https://github.com/datake/FAME)
